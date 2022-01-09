@@ -1,0 +1,438 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper{
+
+	width: 375px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+    }
+
+/*test*/
+
+
+
+
+
+
+
+
+
+/*-----------
+bg-movie関連
+-------------*/
+
+
+#movie{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 375px;
+    height: 667px;
+    scroll-snap-align: start;
+    z-index: 2;
+
+}
+
+#mv_bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -999;
+    width: 375px;
+    height: auto;
+}
+
+#filter{
+    background-color: rgba(0, 0, 0, 0.9);
+     position: relative;
+     z-index: 2;
+     scroll-snap-align: start;
+}
+
+.img_block img{
+     display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 30%;
+    z-index: -999;
+}
+
+
+
+
+
+/*-----------
+ナビゲーション関連
+-------------*/
+
+nav {
+    background-color: #000;
+    width: 375px;
+    height: 667px;
+    display: none; /*テスト用*/
+}
+
+h1 {
+    margin-bottom: 6px;
+    width: 375px;
+    height: 55px; /*パーフェクトじゃない*/
+    border-bottom: 1px solid #484848;
+    position: fixed;
+    z-index: 9999;
+    background-color: #000;
+}
+
+#nav_menu{
+    padding-top: 35px;
+}
+
+#nav_menu li{
+    font-size: 27px;
+    font-weight: bold; 
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 35px;
+}
+
+#flex_menu{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+#flex_menu li{
+    background-color: #fff;
+    padding: 20px; /*直し*/
+    margin: 40px 25px 45px;
+}
+
+/*-----------
+topics
+-------------*/
+
+#topics { 
+    background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    padding: 25px 0px 0px; /*直し*/
+
+}
+
+#topics p{
+        background-color: azure;
+        height: 57px;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold; 
+    font-family: sans-serif;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/*-----------
+news
+-------------*/
+
+#news{
+    margin-top: 30px;
+}
+
+.articles{
+    margin:0px 17px 20px;
+    width: 340px;
+    height: 100px;
+    background-color: rgba(30,30,30,0.4);
+    border: 1px solid #333;
+    display: flex;
+}
+
+.flex_flex{
+    display: flex;
+}
+
+.news_day{
+    font-size: 11px;
+    font-weight: bold; 
+    font-family: sans-serif;
+
+}
+
+.news_genre{
+    font-size: 10px;
+    font-weight: bold; 
+    font-family: sans-serif;
+
+    margin-left: auto;
+}
+
+.flex_picture{
+    margin: 7px 10px;
+    width: 85px;
+    height: 85px;
+    background-color: azure;
+}
+
+.flex_text{
+    line-height: 1.5;
+    margin: 7px 5px;
+    font-size: 12px; 
+    font-family: sans-serif;
+}
+
+.news_subject{
+    margin-top: 10px;
+}
+
+.vm{
+    margin: 25px auto;
+    width: 120px;
+    height: 45px;
+    background-color: #0D0D0D;
+    border: 1px solid #707070;
+    border-radius: 7px;
+}
+/*↑中央ぞろえにしたい↑*/
+
+
+/*-----------
+live
+-------------*/
+
+#live h2{
+    margin-top: 80px;
+}
+
+.hide{
+    display: none;    
+}/*チェックで非表示できるようにしたい*/
+
+.live_schedule{
+    background-color: rgba(30,30,30,0.4);
+    width: 340px;
+    margin:  15px 15px;
+    padding-bottom: 5px;
+}
+
+.day_header{
+    display: flex;
+    background-color: rgba(10,10,10,0.7);
+}
+
+.day_header li{
+    font-size: 14px;
+    font-weight: bold; 
+    font-family: sans-serif;
+    margin: 25px 10px;
+}
+
+.day_header li:last-child{
+    margin-left: auto;
+}
+
+h3{
+    font-size: 17px;
+    font-weight: bold; 
+    font-family: sans-serif;
+    margin: 40px 10px 40px;
+    text-align: center;
+}
+
+
+.live_section{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 0 15px 30px;
+    line-height:1.5;
+}
+
+.live_detail p{
+    margin: 25px 33px 10px;
+    height: 45px;
+    background-color: #0D0D0D;
+    border: 1px solid #707070;
+    border-radius: 7px;   
+    font-size: 18px;
+    font-weight: bold; 
+    font-family: sans-serif;
+}
+/*↑中央ぞろえにしたい↑*/
+
+.live_picture{
+    background-color: white;
+    height: 350px;
+    width: 262px;
+    margin: 35px auto 30px;
+}
+
+.live_picture{
+    background-color: white;
+    height: 350px;
+    width: 262px;
+    margin: 35px auto 30px;
+}
+
+
+/*-----------
+twitter
+-------------*/
+
+#twitter h2{
+    margin-top: 80px;
+}
+
+
+.twitter_kari{
+    height: 440px;
+    width: 340px;
+    margin: 35px auto 0; /*bottom30px入れたい*/
+}/*↑名前直す！*/
+
+
+/*-----------
+footer
+-------------*/
+footer{
+    margin:  auto 0; /*top80px入れたい*/
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#slide_show{
+    margin: 0 auto 0;　/*topに80px入れたい*/   
+}
+
+#slide_show p{
+    background-color: #fff;
+    height: 250px;
+    width: 375px;
+}
+    
+#footer_menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 375px;
+}
+
+#footer_menu>li{
+    margin: 20px 20px;
+    width: 70px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold; 
+    font-family: sans-serif;
+}
+
+#flex_footer{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#flex_footer li{
+    padding: 20px; /*直し*/
+    margin: 20px 25px 30px;
+    background-color: #fff;
+}
+
+footer p{
+    font-size: 11px;
+    font-weight: bold; 
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/*test*/
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+
+}
+
+.slide p {
+  width: 100vw;
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background: #000;
+  scroll-snap-align: start;
+}
+
+.slide p:nth-child(2n) {
+  background: #222;
+}
+
+/*電光掲示板*/
+
+/* =====================
+	電光掲示板
+======================= */
+.ledText {
+    overflow: hidden;
+    position: relative;
+    padding: 5px 0;
+    color: #FFB400;
+    font-size: 60px;
+    font-weight: bold;
+    background: #333333;
+}
+
+/* CSS3グラデーションでドット感を出す */
+.ledText:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(#0a0600 1px, transparent 0px), linear-gradient(0, #0a0600 1px, transparent 1px);
+	background-image: -webkit-linear-gradient(top,#0a0600 1px, transparent 0px), -webkit-linear-gradient(left,#0a0600 1px, transparent 1px);
+	background-size: 2px 2px;
+    z-index: 10;
+}
+
+/* CSS3アニメーションでスクロール */
+.ledText span {
+	display: inline-block;
+	white-space: nowrap;
+	padding-left: 100%;
+	-webkit-animation-name: marquee;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 15s;
+	-moz-animation-name: marquee;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-duration: 15s;
+	animation-name: marquee;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 15s;
+}
+
+@-webkit-keyframes marquee {
+  from   { -webkit-transform: translate(0%);}
+  99%,to { -webkit-transform: translate(-100%);}
+}
+@-moz-keyframes marquee {
+  from   { -moz-transform: translate(0%);}
+  99%,to { -moz-transform: translate(-100%);}
+}
+@keyframes marquee {
+  from   { transform: translate(0%);}
+  99%,to { transform: translate(-100%);}
+}
